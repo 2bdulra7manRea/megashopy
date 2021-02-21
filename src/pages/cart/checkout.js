@@ -5,9 +5,6 @@ import StripeCheckout from "react-stripe-checkout";
 import '../cart/cart.css'
 import CardItem from "./cartItem";
 export default function CheckOut() {
-  let key =
-    "pk_test_51IKnrtJBaizbmfgjhkLxzDgFWfIMG3evlhnpBbVutULwDKGmO7Ar9PFrB3p5K5W8FcqLAeIssDUocAjlIE7zSE4x00qcHIMSHh";
-
 async function getToken(Token) {
 let TOK=await JSON.stringify(Token)
 
