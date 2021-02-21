@@ -1,0 +1,50 @@
+.card_dc{
+transition:1s ease-in-out;
+
+border:1px solid lightgray;
+text-align: center;
+
+height:420px;
+width:230px;
+margin:10px;
+}
+.card_dc:hover{
+
+box-shadow:2px 2px 3px lightgray , -2px 0px 4px lightgray;
+transform: scale(1.02);
+}
+
+.body_dc{
+height:200px;
+padding:20px;
+overflow: hidden;
+}
+.text_dc{
+height:100px;
+font-size:23px;
+overflow: hidden;
+}
+
+.btn-world{
+
+    border-radius: 50px;
+    background: #982553;
+    padding:10px;
+    color: white;
+    font-size:20px;
+    box-shadow: inset 20px 20px 60px #811f47,
+                inset -20px -20px 60px #af2b5f;
+    
+}
+
+.link_style{
+text-decoration: none;
+color: black;
+}
+
+.link_style:hover{
+
+text-decoration: none;
+color: tomato;
+
+}

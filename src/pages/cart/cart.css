@@ -1,0 +1,26 @@
+.center{
+
+height:200px;
+padding:20px;
+display: flex;
+justify-content: center;
+
+}
+
+.content-text{
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.rout-bar{
+    border-bottom:1px solid lightgray;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+    height:100px;
+}
+.arrow{
+    font-size:30px;
+}
